@@ -99,7 +99,7 @@ jobs:
             fi
           }
           mkdir .release
-          cp -R README.md bin.js index.js scan.js parse.js token.js .release
+          cp -R README.md bin.js index.js scan.js parse.js token.js LICENSE .release
           cat package.json | \
             jq 'del(.devDependencies, .scripts, .private)' | \
             jq '. + { "publishConfig": { "registry":"https://npm.pkg.github.com/" } }' | \
