@@ -8,5 +8,6 @@ if (!input) {
   process.exit(1)
 }
 
+/* eslint-disable */
 console.log(JSON.stringify(parse(scan(input))))
 
