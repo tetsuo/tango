@@ -9,7 +9,7 @@
     "docs": "docs"
   },
   "files": [
-    "docs",
+    "*.js",
     "LICENSE"
   ],
   "scripts": {
