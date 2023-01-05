@@ -10,4 +10,3 @@ if (!input) {
 
 /* eslint-disable */
 console.log(JSON.stringify(parse(scan(input))))
-
