@@ -2,10 +2,6 @@
 
 textual syntax for the [mango](https://docs.couchdb.org/en/3.2.2-docs/api/database/find.html#selector-syntax) query language.
 
-![Build](https://github.com/onur1/tango/actions/workflows/main.yml/badge.svg)
-
-[Report a bug or suggest a feature](https://github.com/onur1/tango/issues)
-
 ## Syntax
 
 tango expressions are based on the C syntax. Currently it supports basic comparison operators (`==`, `>`, `>=`, `<`, `<=`, `||`, `&&`) and parentheses for explicit operator precedence.

@@ -1,5 +1,5 @@
 {
-  "name": "@onur1/tango",
+  "name": "@tetsuo/tango",
   "private": true,
   "version": "0.0.0",
   "description": "",
@@ -20,7 +20,7 @@
     "lint": "eslint .",
     "prettier": "prettier --list-different \"./**/*.js\"",
     "fix-prettier": "prettier --write \"./**/*.js\"",
-    "test": "npm run lint && npm run prettier && npm run jest-clear-cache && npm run jest"
+    "test": "npm run jest-clear-cache && npm run jest"
   },
   "keywords": [],
   "author": "",
